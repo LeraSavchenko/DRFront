@@ -11,8 +11,6 @@ body {
     font-family: GothamRounded;
 }
 
-
-
 .intro-header {
     height: 745px;
     text-align: center;
@@ -21,14 +19,13 @@ body {
     background-size: cover;
 }
 
-
 .header-container {
+    
     display: inline;
     font-size: 15px;
     letter-spacing: 3px;
     font-kerning: none;
 }
-
 
 #h {
     float: left;
@@ -63,7 +60,6 @@ body {
 }
 
 .container h1 {
-    font-family: GothamRoundedBold;
     font-size: 35px;
     line-height: 0.35em;
     letter-spacing: 6px;
@@ -81,15 +77,7 @@ body {
     height: 49px;
     width: 166px;
     margin: 5px 7px 0 0;
-    background-color: #16a085;
-    border: none;
     border-radius: 2px;
-    color: #ffffff;
-    
-    font-family: GothamRounded;
-    font-size: 11.5px;
-    font-weight: 500;
-    letter-spacing: 2px;
     padding-top: 3.5px;
 }
 
@@ -103,10 +91,58 @@ body {
     padding-right: 9px;
 }
 
+.heading {
+    color: #16a085;
+    letter-spacing: 3px;
+    font-size: 17.5px;
+}
+
+.text {
+    font-family: GothamRoundedBook;
+    font-size: 11.5px;
+    letter-spacing: 2px;
+}
+
+.bold {
+    font-family: GothamRoundedBold;
+    font-size: 11.5px;
+    letter-spacing: 2px;
+    line-height: 2.1em;
+}
+
+.button {
+    background-color: #16a085;
+    border: none;
+    color: #ffffff;
+    font-family: GothamRounded;
+    font-size: 11.5px;
+    letter-spacing: 2px;
+}
+
 .content-section-a {
     height: 493px;
     background: url(../images/bg2.jpg) no-repeat center center;
     background-size: cover;
+}
+
+.represent {
+    padding: 91.5px 0 0 129px;
+    width: 450px;
+}
+
+.represent p {
+    padding-top: 21px;
+    line-height: 2.1em;
+}
+
+.represent button {
+    height: 51px;
+    width: 192px;
+    margin-top: 30px;
+    border-radius: 3px;
+    
+    padding-top: 5px;
+    padding-right: 2.5px;
 }
 
 .content-section-b {
@@ -115,9 +151,80 @@ body {
     background-size: cover;
 }
 
+.design {
+    float: right;
+    width: 450px;
+    padding: 123px 64px 0 0;
+}
+
+.design p {
+    padding-top: 17px;
+    padding-left: 3px;
+    line-height: 1.92em;
+}
+
+.design button {
+    height: 51px;
+    width: 192px;
+    margin: 24px 0 33px 1px;
+    padding: 2px 3px 0 0;
+}
+
+.angle {
+    float: right;
+    clear: right;
+    margin-right: 453px;
+}
+
+.angle p {
+    font-family: GothamRoundedBold;
+    font-size: 0.73em;
+    letter-spacing: 2px;
+    margin-bottom: 0;
+}
+
+.angle i {
+    font-size: 29px;
+    letter-spacing: 17px;
+    font-weight: bold;
+}
+
 .content-section-c {
     height: 484px;
     background-color: #f5f6f7;
+}
+
+.community {
+    float: left;
+    margin-top: 165px;
+    margin-left: 128px;
+    text-align: center;
+}
+
+.community h3 {
+    margin-top: 24px;
+    margin-left: 1px;
+    margin-bottom: 19.5px;
+    font-size: 0.95em;
+    letter-spacing: 3px;
+}
+
+.community p {
+    font-family: GothamRoundedBook;
+    font-size: 9.5px;
+    letter-spacing: 0.19em;
+    line-height: 1.35em;
+    padding-left: 1px;
+}
+
+.img {
+   padding: 140px 40px 0 30px;
+ 
+}
+
+.scroll {
+    float: right;
+   
 }
 
 .content-section-d {
