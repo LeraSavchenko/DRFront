@@ -119,7 +119,7 @@ body {
     letter-spacing: 2px;
 }
 
-.content-section-a {
+.section-a {
     height: 493px;
     background: url(../images/bg2.jpg) no-repeat center center;
     background-size: cover;
@@ -145,7 +145,7 @@ body {
     padding-right: 2.5px;
 }
 
-.content-section-b {
+.section-b {
     height: 557px;
     background: url(../images/2.jpg) no-repeat center center;
     background-size: cover;
@@ -186,25 +186,22 @@ body {
 .angle i {
     font-size: 29px;
     letter-spacing: 17px;
-    font-weight: bold;
 }
 
-.content-section-c {
-    height: 484px;
+.section-c {
     background-color: #f5f6f7;
+    padding: 84px 125px 115px 127px;
 }
 
 .community {
     float: left;
-    margin-top: 165px;
-    margin-left: 128px;
     text-align: center;
+    margin: 44px 80px 0 0;
 }
 
 .community h3 {
-    margin-top: 24px;
-    margin-left: 1px;
-    margin-bottom: 19.5px;
+    margin: 24px 0 19.5px;
+    padding-left: 2px;
     font-size: 0.95em;
     letter-spacing: 3px;
 }
@@ -214,40 +211,139 @@ body {
     font-size: 9.5px;
     letter-spacing: 0.19em;
     line-height: 1.35em;
-    padding-left: 1px;
+    margin-top: 5px;
+    padding-left: 2px;
 }
 
-.img {
-   padding: 140px 40px 0 30px;
- 
+#van {
+    margin-right: 19px;
 }
 
 .scroll {
-    float: right;
-   
+    text-align: right;
+    font-size: 29px;
+    letter-spacing: 4px;
+    margin-bottom: 2px;
+    font-weight: bold;
 }
 
-.content-section-d {
-    height: 789px;
+.section-d {
     background: url(../images/photo_bg.jpg) no-repeat center center;
     background-size: cover;
+    text-align: center;
+    padding: 324px 0 385px;
 }
 
-
-
-.banner {
-    height: 396px;
-    background-color: #f5f6f7;
-}
-
-.banner ul {
+.section-d h3 {
+    color: white;
+    letter-spacing: 0.2em;
+    font-size: 1.42em;
+    margin-left: 6px;
     margin-bottom: 0;
 }
 
+.email {
+    margin: 30px 0 0 467px;
+}
 
+.email input {
+    float: left;
+    clear: left;
+    border: none;
+    height: 58px;
+    width: 258px;
+    border-radius: 3px 0 0 3px;
+    
+    font-family: GothamRounded;
+    letter-spacing: 3px;
+    font-size: 15px;
+    padding: 2px 0 0 22px;
+}
+
+.email button {
+    float: left;
+    border: none;
+    height: 60px;
+    width: 63px;
+    background-color: #16a085;
+    border-radius: 0 3px 3px 0;
+    
+    color: white;
+    font-size: 23px;
+    padding: 3px 0 0 2px;
+}
+
+.section-e {
+    background-color: #f5f6f7;
+    text-align: center;
+    padding: 80px 0 201px 3px;
+    letter-spacing: 0.25em;
+    line-height: 0.1em;
+}
+
+.section-e p {
+    font-size: 11px;
+    letter-spacing: 0.22em;
+    color: #373737;
+    line-height: 2em;
+}
+
+.btns {
+    padding-left: 327px;
+}
+
+.apple,
+.android,
+.apple-social-button,
+.android-social-button {
+    float:left;
+    border: none;
+    color: white;
+    font-family: GothamRoundedBold;
+    margin-top: 29px;
+}
+
+.apple,
+.android {
+    background-color: #16a085;
+    border-radius: 0 3px 3px 0;
+}
+
+.apple {
+    margin-right: 26px;
+    font-size: 26px;
+    padding: 16px 14px 14px 18px;
+}
+
+.android {
+    font-size: 31px;
+    padding: 12px 11px 13px 17px;
+}
+
+.apple-social-button,
+.android-social-button {
+    border-radius: 3px 0 0 3px;
+    background-color: #1abc9c;
+    width: 240px;
+    height: 56px;
+    text-align: left;
+    
+}
+
+.apple-social-button {
+    font-size: 15px;
+    padding: 5px 0 0 25px;
+    letter-spacing: 3px;
+}
+
+.android-social-button {
+    font-size: 16px;
+    padding: 2px 0 0 30px;
+    letter-spacing: 4px;
+}
 
 footer {
- 
+    height: 150px;
 }
 
 p.copyright {
