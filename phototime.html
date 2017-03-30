@@ -5,14 +5,12 @@
 
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="description" content="">
-    <meta name="author" content="">
+    <meta name="author" content="Valeriya Savchenko">
 
     <title>Phototime</title>
     
     <script src="https://use.fontawesome.com/67d861fab9.js"></script>
 
-    <!-- Custom CSS -->
     <link href="css/phototime_styles.css" rel="stylesheet">
     <link href="css/font_styles.css" rel="stylesheet">
 
@@ -21,20 +19,21 @@
 <body>
     <div class="intro-header">
         <div class="header-container">
-            <div id="h">HOME</div>
-            <div id="p">PHOTOAPP</div>
+            <a id="h-button" href="#">HOME</a>
+            <a id="p-button" href="#a">PHOTOAPP</a>
             <div id="pic">
-                <img src="images/1.png">
+                <img src="images/1.png" alt="white logo">
             </div>
-            <div id="d">DESIGN</div>
-            <div id="l">DOWNLOAD</div>
+            <a id="d-button" href="#b">DESIGN</a>
+            <a id="l-button" href="#e">DOWNLOAD</a>
         </div>
         
         <div class="container">
             <h1>YOUR LIFE , A PHOTO</h1>
             <h4>print your life in a simple photo</h4>
             <button class="button">GET STARTED</button>
-            <div class="social">
+            
+            <div class="container-social">
                 <i class="fa fa-twitter" aria-hidden="true"></i>
                 <i class="fa fa-flickr" aria-hidden="true"></i>
                 <i class="fa fa-dribbble" aria-hidden="true"></i>
@@ -43,8 +42,8 @@
     </div>
   
 
-    <div class="section-a">
-        <div class="represent">
+    <div class="section-a" id="a">
+        <div class="a-represent">
             <h3 class="heading">RAPPRESENT YOUR LIFE WITH A SIMPLE PHOTO</h3>
             
             <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
@@ -58,8 +57,8 @@
     </div>
    
 
-    <div class="section-b">
-        <div class="design">
+    <div class="section-b" id="b">
+        <div class="b-design">
             <h3 class="heading">DESIGN</h3>
             
             <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
@@ -71,39 +70,39 @@
             <button class="button">LEARN MORE</button>
         </div>
         
-        <div class="angle">
+        <div class="b-angle">
             <p>01/05</p>
             <i class="fa fa-angle-left" aria-hidden="true"></i>
             <i class="fa fa-angle-right" aria-hidden="true"></i>
         </div>
     </div>
 
-    <div class="section-c">
-        <div class="scroll">
+    <div class="section-c" id="c">
+        <div class="c-angle">
             <i class="fa fa-angle-left" aria-hidden="true"></i>
             <i class="fa fa-angle-right" aria-hidden="true"></i>
         </div>
         
-        <div class="community">
-            <img src="images/2.png">
+        <div class="c-community">
+            <img src="images/2.png" alt="green logo">
             <h3>OUR COMMUNITY</h3>
             <p>Lorem ipsum dolor sit<br> amet, consectetur<br> adipiscing elit,</p>
         </div>
     
-        <img id="van" src="images/van.jpg">
-        <img src="images/leaves.jpg">
+        <img id="c-van" src="images/van.jpg" alt="van photo">
+        <img src="images/leaves.jpg" alt="leaves photo">
     </div>
 
-    <div class="section-d">
-        <h3>SUBSCRIBE TO US COMMUNITY</h2>
-        <div class="email">
+    <div class="section-d" id="d">
+        <h3>SUBSCRIBE TO US COMMUNITY</h3>
+        <div class="d-email">
             <input placeholder="YOUR EMAIL">
-            <button><i class="fa fa-check" aria-hidden="true"></i></button>
+            <button class="button"><i class="fa fa-check" aria-hidden="true"></i></button>
         </div>
     </div>
     
     
-    <div class="section-e">
+    <div class="section-e" id="e">
         <h3>DOWNLOAD IT</h3>
         
         <p>LOREM IPSUM DOLOR SIT AMET, CONSECTETUR ADIPISCING ELIT, 
@@ -112,27 +111,23 @@
             NOSTRUD EXERCITATION ULLAMCO<br>LABORIS NISI 
             UT ALIQUIP EX EA COMMODO CONSEQUAT.</span></p>
         
-        <div class="btns">
-            <button class="apple-social-button">APPLE STORE</button>
-            <div class="apple">
+        <div class="e-btns">
+            <button class="e-apple-social-button">APPLE STORE</button>
+            <div class="e-apple">
                 <i class="fa fa-apple" aria-hidden="true"></i>
             </div>
             
-            <button class="android-social-button">PLAY STORE</button>
-            <div class="android">
+            <button class="e-android-social-button">PLAY STORE</button>
+            <div class="e-android">
                 <i class="fa fa-android" aria-hidden="true"></i>
             </div>
         </div>
     </div>
 
-    <footer>
-        <h3><a>CREDITS</a>|<a>PRIVACY</a>|<a>OUR TEAMS</a></h3>
-        <p>Copyright by phototime - all right reserved</p>
-        <img src="images/2.png">
+    <footer class="footer">
+        <img src="images/2.png" alt="green logo">
+        <h3><a href="#">CREDITS</a> | <a href="#">PRIVACY</a> | <a href="#">OUR TEAMS</a></h3>
+        <p>Copyright by phototime - all right reserved</p>  
     </footer>
-
-
-
 </body>
-
 </html>

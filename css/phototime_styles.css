@@ -13,43 +13,80 @@ body {
 
 .intro-header {
     height: 745px;
-    text-align: center;
     color: #f8f8f8;
     background: url(../images/bg.jpg);
     background-size: cover;
+    text-align: center;
 }
 
 .header-container {
-    
     display: inline;
     font-size: 15px;
     letter-spacing: 3px;
     font-kerning: none;
 }
 
-#h {
-    float: left;
-    padding: 71px 32px 0 272px;
+.header-container a {
+    color: white;
+    text-decoration: none;
 }
 
-#p {
+.header-container a:hover {
+    color: #16a085;
+}
+
+#h-button {
     float: left;
-    padding: 71px 50px 0 32px;
+    margin: 71px 32px 0 272px;
+}
+
+#p-button {
+    float: left;
+    margin: 71px 50px 0 32px;
 }
 
 #pic {
     float: left;
-    padding: 40px 49px 0 50px;
+    margin: 40px 49px 0 50px;
 }
 
-#d {
+#d-button {
     float: left;
-    padding: 71px 38px 0 49px;
+    margin: 71px 38px 0 49px;
 }
 
-#l {
+#l-button {
     float: left;
-    padding: 71px 70px 0 38px;
+    margin: 71px 70px 0 38px;
+}
+
+.heading {
+    color: #16a085;
+    letter-spacing: 3px;
+    font-size: 17.5px;
+}
+
+.text {
+    font: 11.5px GothamRoundedBook;
+    letter-spacing: 2px;
+}
+
+.bold {
+    font: 11.5px GothamRoundedBold;
+    letter-spacing: 2px;
+    line-height: 2.1em;
+}
+
+.button {
+    background-color: #16a085;
+    border: none;
+    color: #ffffff;
+    font: 0.725em GothamRounded;
+    letter-spacing: 2px;
+}
+
+.button:hover {
+    background-color: #028c71;
 }
 
 .container {
@@ -66,10 +103,9 @@ body {
 }
 
 .container h4 {
-    font-family: GothamRoundedBook;
-    font-size: 15px;
+    font: 15px GothamRoundedBook;
     letter-spacing: 3px;
-    padding: 0 5px 0 0;
+    padding-right: 5px;
     margin-top: 20px;
 }
 
@@ -81,42 +117,10 @@ body {
     padding-top: 3.5px;
 }
 
-.social {
+.container-social {
     margin-top: 217px;
-    padding-left: 3px;
     font-size: 25px;
-}
-
-.social i {
-    padding-right: 9px;
-}
-
-.heading {
-    color: #16a085;
-    letter-spacing: 3px;
-    font-size: 17.5px;
-}
-
-.text {
-    font-family: GothamRoundedBook;
-    font-size: 11.5px;
-    letter-spacing: 2px;
-}
-
-.bold {
-    font-family: GothamRoundedBold;
-    font-size: 11.5px;
-    letter-spacing: 2px;
-    line-height: 2.1em;
-}
-
-.button {
-    background-color: #16a085;
-    border: none;
-    color: #ffffff;
-    font-family: GothamRounded;
-    font-size: 11.5px;
-    letter-spacing: 2px;
+    letter-spacing: 4px;
 }
 
 .section-a {
@@ -125,17 +129,17 @@ body {
     background-size: cover;
 }
 
-.represent {
+.a-represent {
     padding: 91.5px 0 0 129px;
     width: 450px;
 }
 
-.represent p {
+.a-represent p {
     padding-top: 21px;
     line-height: 2.1em;
 }
 
-.represent button {
+.a-represent button {
     height: 51px;
     width: 192px;
     margin-top: 30px;
@@ -151,39 +155,39 @@ body {
     background-size: cover;
 }
 
-.design {
+.b-design {
     float: right;
     width: 450px;
     padding: 123px 64px 0 0;
 }
 
-.design p {
-    padding-top: 17px;
+.b-design p {
+    padding-top: 19px;
     padding-left: 3px;
-    line-height: 1.92em;
+    line-height: 1.913em;
+    letter-spacing: 0.18em;
 }
 
-.design button {
+.b-design button {
     height: 51px;
     width: 192px;
-    margin: 24px 0 33px 1px;
+    margin: 26px 0 33px 1px;
     padding: 2px 3px 0 0;
 }
 
-.angle {
+.b-angle {
     float: right;
     clear: right;
     margin-right: 453px;
 }
 
-.angle p {
-    font-family: GothamRoundedBold;
-    font-size: 0.73em;
+.b-angle p {
+    font: 0.73em GothamRoundedBold;
     letter-spacing: 2px;
     margin-bottom: 0;
 }
 
-.angle i {
+.b-angle i {
     font-size: 29px;
     letter-spacing: 17px;
 }
@@ -193,33 +197,32 @@ body {
     padding: 84px 125px 115px 127px;
 }
 
-.community {
+.c-community {
     float: left;
     text-align: center;
     margin: 44px 80px 0 0;
 }
 
-.community h3 {
+.c-community h3 {
     margin: 24px 0 19.5px;
     padding-left: 2px;
     font-size: 0.95em;
     letter-spacing: 3px;
 }
 
-.community p {
-    font-family: GothamRoundedBook;
-    font-size: 9.5px;
+.c-community p {
+    font: 9.5px GothamRoundedBook;
     letter-spacing: 0.19em;
     line-height: 1.35em;
     margin-top: 5px;
     padding-left: 2px;
 }
 
-#van {
+#c-van {
     margin-right: 19px;
 }
 
-.scroll {
+.c-angle {
     text-align: right;
     font-size: 29px;
     letter-spacing: 4px;
@@ -242,11 +245,11 @@ body {
     margin-bottom: 0;
 }
 
-.email {
+.d-email {
     margin: 30px 0 0 467px;
 }
 
-.email input {
+.d-email input {
     float: left;
     clear: left;
     border: none;
@@ -254,23 +257,16 @@ body {
     width: 258px;
     border-radius: 3px 0 0 3px;
     
-    font-family: GothamRounded;
+    font: 15px GothamRounded;
     letter-spacing: 3px;
-    font-size: 15px;
     padding: 2px 0 0 22px;
 }
 
-.email button {
+.d-email button {
     float: left;
-    border: none;
-    height: 60px;
-    width: 63px;
-    background-color: #16a085;
     border-radius: 0 3px 3px 0;
-    
-    color: white;
     font-size: 23px;
-    padding: 3px 0 0 2px;
+    padding: 18px 16px 14px 22px;
 }
 
 .section-e {
@@ -288,14 +284,14 @@ body {
     line-height: 2em;
 }
 
-.btns {
+.e-btns {
     padding-left: 327px;
 }
 
-.apple,
-.android,
-.apple-social-button,
-.android-social-button {
+.e-apple,
+.e-android,
+.e-apple-social-button,
+.e-android-social-button {
     float:left;
     border: none;
     color: white;
@@ -303,49 +299,77 @@ body {
     margin-top: 29px;
 }
 
-.apple,
-.android {
+.e-apple,
+.e-android {
     background-color: #16a085;
     border-radius: 0 3px 3px 0;
 }
 
-.apple {
+.e-apple {
     margin-right: 26px;
     font-size: 26px;
     padding: 16px 14px 14px 18px;
 }
 
-.android {
+.e-android {
     font-size: 31px;
     padding: 12px 11px 13px 17px;
 }
 
-.apple-social-button,
-.android-social-button {
+.e-apple-social-button,
+.e-android-social-button {
     border-radius: 3px 0 0 3px;
     background-color: #1abc9c;
     width: 240px;
     height: 56px;
     text-align: left;
-    
 }
 
-.apple-social-button {
+.e-apple-social-button:hover,
+.e-android-social-button:hover {
+    background-color: #028c71;
+}
+
+.e-apple-social-button {
     font-size: 15px;
     padding: 5px 0 0 25px;
     letter-spacing: 3px;
 }
 
-.android-social-button {
+.e-android-social-button {
     font-size: 16px;
     padding: 2px 0 0 30px;
     letter-spacing: 4px;
 }
 
-footer {
-    height: 150px;
+.footer {
+    padding: 30px 129px 15px 127px;
 }
 
-p.copyright {
-    margin: 15px 0 0;
+.footer h3 {
+    color: #16a085;
+    font-size: 14px;
+    letter-spacing: 0.15em;
+}
+
+.footer a {
+    color: black;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    color: #028c71;
+}
+
+.footer p {
+    font-size: 14px;
+    letter-spacing: 0.155em;
+    line-height: 2em;
+}
+
+.footer img {
+    margin-top: 8px;
+    width: 53px;
+    height: 55px;
+    float: right;
 }
